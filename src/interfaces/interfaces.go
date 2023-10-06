@@ -27,7 +27,6 @@ func calcular(f figuraGeometrica) {
 }
 func Interfaces() {
 	fmt.Println("hello")
-
 	myCuadrado := Cuadrado{Base: 40}
 	myRectangulo := Reactangulo{base: 30, altura: 50}
 	calcular(myCuadrado)
